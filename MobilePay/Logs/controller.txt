@@ -1,0 +1,127 @@
+2022-01-13 23:48:34.712 +01:00 [INF] Starting web host
+2022-01-13 23:48:35.876 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-13 23:48:35.881 +01:00 [INF] Hosting environment: Development
+2022-01-13 23:48:35.884 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-13 23:48:35.901 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-13 23:48:35.977 +01:00 [INF] Request finished in 78.6687ms 200 text/html;charset=utf-8
+2022-01-13 23:48:36.221 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-13 23:48:36.305 +01:00 [INF] Request finished in 84.8195ms 200 application/json;charset=utf-8
+2022-01-13 23:48:47.176 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/get-fee?merchantName=Tesla  
+2022-01-13 23:48:47.201 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-13 23:48:47.222 +01:00 [INF] Route matched with {action = "GetFeeByMerchant", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFeeByMerchant(System.String) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-13 23:48:47.234 +01:00 [WRN] waaaa
+2022-01-13 23:48:47.387 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal'.
+2022-01-13 23:48:47.397 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay) in 169.8299ms
+2022-01-13 23:48:47.399 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-13 23:48:47.400 +01:00 [INF] HTTP GET /get-fee?merchantName=Tesla responded 200 in 219.3150 ms
+2022-01-13 23:48:47.401 +01:00 [INF] Request finished in 224.8935ms 200 application/json; charset=utf-8
+2022-01-13 23:49:31.368 +01:00 [INF] Starting web host
+2022-01-13 23:49:32.280 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-13 23:49:32.283 +01:00 [INF] Hosting environment: Development
+2022-01-13 23:49:32.284 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-13 23:49:32.301 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-13 23:49:32.380 +01:00 [INF] Request finished in 81.7489ms 200 text/html;charset=utf-8
+2022-01-13 23:49:32.612 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-13 23:49:32.692 +01:00 [INF] Request finished in 79.6357ms 200 application/json;charset=utf-8
+2022-01-14 00:11:14.205 +01:00 [INF] Starting web host
+2022-01-14 00:11:15.300 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 00:11:15.303 +01:00 [INF] Hosting environment: Development
+2022-01-14 00:11:15.305 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 00:11:15.316 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 00:11:15.374 +01:00 [INF] Request finished in 58.8176ms 200 text/html;charset=utf-8
+2022-01-14 00:11:15.608 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 00:11:15.702 +01:00 [INF] Request finished in 91.1086ms 200 application/json;charset=utf-8
+2022-01-14 00:11:25.273 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/get-fee  
+2022-01-14 00:11:25.298 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-14 00:11:25.326 +01:00 [INF] Route matched with {action = "GetFeeByMerchant", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFeeByMerchant(System.String) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 00:11:25.335 +01:00 [WRN] waaaa
+2022-01-14 00:11:25.486 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-01-14 00:11:25.492 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay) in 161.7961ms
+2022-01-14 00:11:25.494 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-14 00:11:25.495 +01:00 [INF] HTTP GET /get-fee responded 200 in 217.3483 ms
+2022-01-14 00:11:25.495 +01:00 [INF] Request finished in 225.8654ms 200 text/plain; charset=utf-8
+2022-01-14 00:17:41.297 +01:00 [INF] Starting web host
+2022-01-14 00:17:42.377 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 00:17:42.379 +01:00 [INF] Hosting environment: Development
+2022-01-14 00:17:42.380 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 00:17:42.392 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 00:17:42.448 +01:00 [INF] Request finished in 58.6019ms 200 text/html;charset=utf-8
+2022-01-14 00:17:42.702 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 00:17:42.782 +01:00 [INF] Request finished in 80.7935ms 200 application/json;charset=utf-8
+2022-01-14 00:17:52.103 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/get-fee?merchantName=Tesla  
+2022-01-14 00:17:52.128 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-14 00:17:52.150 +01:00 [INF] Route matched with {action = "GetFeeByMerchant", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFeeByMerchant(System.String) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 00:17:52.161 +01:00 [INF] Requesting fee for: Tesla
+2022-01-14 00:17:52.320 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal'.
+2022-01-14 00:17:52.329 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay) in 173.7254ms
+2022-01-14 00:17:52.332 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.GetFeeByMerchant (MobilePay)'
+2022-01-14 00:17:52.334 +01:00 [INF] HTTP GET /get-fee?merchantName=Tesla responded 200 in 224.8031 ms
+2022-01-14 00:17:52.335 +01:00 [INF] Request finished in 231.3833ms 200 application/json; charset=utf-8
+2022-01-14 00:33:55.390 +01:00 [INF] Starting web host
+2022-01-14 00:33:56.517 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 00:33:56.519 +01:00 [INF] Hosting environment: Development
+2022-01-14 00:33:56.521 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 00:33:56.533 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 00:33:56.592 +01:00 [INF] Request finished in 60.9998ms 200 text/html;charset=utf-8
+2022-01-14 00:33:56.867 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 00:33:56.953 +01:00 [INF] Request finished in 86.4985ms 200 application/json;charset=utf-8
+2022-01-14 00:34:27.285 +01:00 [INF] Request starting HTTP/2.0 POST https://localhost:44363/register-transactions application/json 123
+2022-01-14 00:34:27.318 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay)'
+2022-01-14 00:34:27.343 +01:00 [INF] Route matched with {action = "RegisterTransactions", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterTransactions(MobilePay.Models.TransactionsEndpoint) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 00:34:27.369 +01:00 [INF] Registering transactions: {@transactionEndpoint.Transaction} and {@transactionEndpoint.Transactions} 
+2022-01-14 00:34:27.556 +01:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-01-14 00:34:27.562 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay) in 214.1559ms
+2022-01-14 00:34:27.562 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay)'
+2022-01-14 00:34:27.564 +01:00 [INF] HTTP POST /register-transactions responded 200 in 273.5601 ms
+2022-01-14 00:34:27.565 +01:00 [INF] Request finished in 280.6308ms 200 
+2022-01-14 00:35:55.522 +01:00 [INF] Starting web host
+2022-01-14 00:35:56.706 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 00:35:56.709 +01:00 [INF] Hosting environment: Development
+2022-01-14 00:35:56.710 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 00:35:56.734 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 00:35:56.807 +01:00 [INF] Request finished in 76.7345ms 200 text/html;charset=utf-8
+2022-01-14 00:35:57.084 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 00:35:57.167 +01:00 [INF] Request finished in 83.2751ms 200 application/json;charset=utf-8
+2022-01-14 00:36:22.758 +01:00 [INF] Request starting HTTP/2.0 POST https://localhost:44363/register-transactions application/json 122
+2022-01-14 00:36:22.791 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay)'
+2022-01-14 00:36:22.816 +01:00 [INF] Route matched with {action = "RegisterTransactions", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterTransactions(MobilePay.Models.TransactionsEndpoint) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 00:36:22.839 +01:00 [INF] Registering transactions: {"Transaction":{"ID":0,"Timestamp":"2022-01-13T23:36:00.1130000Z","Amount":100,"MerchantName":"McDonalds","$type":"Transaction"},"Transactions":null,"$type":"TransactionsEndpoint"} 
+2022-01-14 00:36:23.034 +01:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-01-14 00:36:23.039 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay) in 218.2949ms
+2022-01-14 00:36:23.039 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.RegisterTransactions (MobilePay)'
+2022-01-14 00:36:23.040 +01:00 [INF] HTTP POST /register-transactions responded 200 in 275.8988 ms
+2022-01-14 00:36:23.041 +01:00 [INF] Request finished in 283.3624ms 200 
+2022-01-14 00:41:51.174 +01:00 [INF] Starting web host
+2022-01-14 00:41:52.258 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 00:41:52.262 +01:00 [INF] Hosting environment: Development
+2022-01-14 00:41:52.263 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 00:41:52.276 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 00:41:52.334 +01:00 [INF] Request finished in 60.1948ms 200 text/html;charset=utf-8
+2022-01-14 00:41:52.585 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 00:41:52.666 +01:00 [INF] Request finished in 78.7596ms 200 application/json;charset=utf-8
+2022-01-14 00:42:05.869 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/get-transactions?merchantName=Tesla  
+2022-01-14 00:42:05.898 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay)'
+2022-01-14 00:42:05.921 +01:00 [INF] Route matched with {action = "GetTransactionsByMerchant", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTransactionsByMerchant(System.String) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 00:42:05.931 +01:00 [INF] Requesting transactions for: Tesla
+2022-01-14 00:42:06.085 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MobilePay.Models.Transaction, MobilePay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-01-14 00:42:06.098 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay) in 172.5317ms
+2022-01-14 00:42:06.100 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay)'
+2022-01-14 00:42:06.101 +01:00 [INF] HTTP GET /get-transactions?merchantName=Tesla responded 200 in 226.6556 ms
+2022-01-14 00:42:06.101 +01:00 [INF] Request finished in 232.5994ms 200 application/json; charset=utf-8
+2022-01-14 10:57:15.042 +01:00 [INF] Starting web host
+2022-01-14 10:57:16.461 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-14 10:57:16.477 +01:00 [INF] Hosting environment: Development
+2022-01-14 10:57:16.478 +01:00 [INF] Content root path: C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay
+2022-01-14 10:57:16.494 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/index.html  
+2022-01-14 10:57:16.558 +01:00 [INF] Request finished in 65.9767ms 200 text/html;charset=utf-8
+2022-01-14 10:57:16.779 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-01-14 10:57:16.869 +01:00 [INF] Request finished in 88.3084ms 200 application/json;charset=utf-8
+2022-01-14 10:57:28.795 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44363/get-transactions?merchantName=McDonalds  
+2022-01-14 10:57:28.820 +01:00 [INF] Executing endpoint 'MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay)'
+2022-01-14 10:57:28.845 +01:00 [INF] Route matched with {action = "GetTransactionsByMerchant", controller = "Transaction"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTransactionsByMerchant(System.String) on controller MobilePay.Controllers.TransactionController (MobilePay).
+2022-01-14 10:57:28.856 +01:00 [INF] Requesting transactions for: McDonalds
+2022-01-14 10:57:29.037 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MobilePay.Models.Transaction, MobilePay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-01-14 10:57:29.048 +01:00 [INF] Executed action MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay) in 199.7455ms
+2022-01-14 10:57:29.050 +01:00 [INF] Executed endpoint 'MobilePay.Controllers.TransactionController.GetTransactionsByMerchant (MobilePay)'
+2022-01-14 10:57:29.051 +01:00 [INF] HTTP GET /get-transactions?merchantName=McDonalds responded 200 in 251.7562 ms
+2022-01-14 10:57:29.051 +01:00 [INF] Request finished in 256.8261ms 200 application/json; charset=utf-8

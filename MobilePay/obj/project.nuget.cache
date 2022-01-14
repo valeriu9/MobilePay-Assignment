@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6sG8gVq72KEB6ErGW5AbkhQs9tgM/+/2p4sUOvAWtF7vMbYW9rwAs7M5nuNOmdrtq7GTkYyt7RDau3Ak9a/pw==",
+  "dgSpecHash": "zEuEuSeddNRWPvNXxPk9ituMFTZUue/9mVjPGP+hUBZeLMZU4jo2XVofcrufMW4YIPkFENUSZ3QksDuTLkJXEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\MobilePay.csproj",
+  "projectFilePath": "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\MobilePay.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valer\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\valer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

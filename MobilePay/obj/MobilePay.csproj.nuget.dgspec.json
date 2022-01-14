@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\MobilePay.csproj": {}
+    "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\MobilePay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\MobilePay.csproj": {
+    "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\MobilePay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\MobilePay.csproj",
+        "projectUniqueName": "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\MobilePay.csproj",
         "projectName": "MobilePay",
-        "projectPath": "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\MobilePay.csproj",
+        "projectPath": "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\MobilePay.csproj",
         "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valer\\source\\repos\\MobilePay\\MobilePay\\obj\\",
+        "outputPath": "C:\\Users\\valer\\Documents\\GitHub\\MobilePay-Assignment\\MobilePay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config",

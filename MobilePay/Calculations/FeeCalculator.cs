@@ -3,7 +3,6 @@ using MobilePay.Storage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace MobilePay.Calculations
 {
@@ -15,7 +14,7 @@ namespace MobilePay.Calculations
             decimal discountPercentage = 0;
             decimal discountOfMerchant = 0;
             decimal initialFee = 0;
-            var hasAdditionalDiscount = checkTransactionsPerioud(transactions);
+            var hasAdditionalDiscount = checkTransactionsPeriod(transactions);
             decimal additionalDiscount = 0;
 
             foreach(var transaction in transactions)
@@ -37,13 +36,11 @@ namespace MobilePay.Calculations
         private decimal getTransactionFee(Transaction transaction)
         {
 
-            decimal result = (transaction.Timestamp.DayOfWeek == DayOfWeek.Saturday) || (transaction.Timestamp.DayOfWeek == DayOfWeek.Sunday) ? 0 : transaction.Amount * (decimal)0.01;
-            Console.WriteLine(transaction);
-            Console.WriteLine(result);
+            var result = (transaction.Timestamp.DayOfWeek == DayOfWeek.Saturday) || (transaction.Timestamp.DayOfWeek == DayOfWeek.Sunday) ? 0 : transaction.Amount * (decimal)0.01;
             return result;
         }
 
-        private bool checkTransactionsPerioud(List<Transaction> transactions)
+        private bool checkTransactionsPeriod(List<Transaction> transactions)
         {
             var monthsInList = new List<MonthCounter>();
             foreach (var transaction in transactions)

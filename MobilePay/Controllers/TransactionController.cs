@@ -14,31 +14,36 @@ namespace MobilePay.Controllers
     public class TransactionController : ControllerBase
     {
 
-        private readonly ILogger<TransactionController> _logger;
+        readonly ILogger<TransactionController> _logger;
 
         public TransactionController(ILogger<TransactionController> logger)
         {
-            _logger = logger;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [HttpPost("~/register-transactions")]
         public IActionResult RegisterTransactions([FromBody] TransactionsEndpoint transactionEndpoint)
         {
-            if(transactionEndpoint.Transactions != null) { 
-                foreach(var transaction in transactionEndpoint.Transactions)
+            _logger.LogInformation("Registering transactions: {@transactionEndpoint} ", transactionEndpoint);
+
+            if (transactionEndpoint.Transactions != null) {
+                _logger.LogInformation("Add to queue the transactions list");
+                foreach (var transaction in transactionEndpoint.Transactions)
                 {
                 QueueJobs.Instance.queue.Enqueue(transaction);
                 }
             } 
             if(transactionEndpoint.Transaction != null)
             {
-            QueueJobs.Instance.queue.Enqueue(transactionEndpoint.Transaction);
+                _logger.LogInformation("Add to queue the transaction");
+                QueueJobs.Instance.queue.Enqueue(transactionEndpoint.Transaction);
             }
             if(transactionEndpoint.Transaction != null && transactionEndpoint.Transactions != null)
             {
+                _logger.LogWarning("Register transaction failed due to missing data {@transactionEndpoint}", transactionEndpoint);
                 return StatusCode(400, "Insert a transaction or a list of transactions");
             }
-
+            _logger.LogInformation("Dequeue and save to file performed");
             QueueJobs.DequeueAndSave();
 
             return Ok();
@@ -47,16 +52,21 @@ namespace MobilePay.Controllers
         [HttpGet("~/get-transactions")]
         public IActionResult GetTransactionsByMerchant([FromQuery] string merchantName)
         {
+            _logger.LogInformation("Requesting transactions for: {merchantName}", merchantName);
             return Ok(getMerchantTransactions(merchantName));
         }
+
+
         [HttpGet("~/get-fee")]
         public IActionResult GetFeeByMerchant([FromQuery] string merchantName)
         {
+            _logger.LogInformation("Requesting fee for: {merchantName}", merchantName);
             var feeCalculator = new FeeCalculator();
             var merchantTransactions = getMerchantTransactions(merchantName);
             if(merchantTransactions.Count == 0)
             {
-                return Ok("This merchant does not have a transaction");
+                _logger.LogWarning("{merchant} does not have a transaction", merchantName);
+                return StatusCode(404, "This merchant does not have a transaction");
             } 
             return Ok(feeCalculator.CalculateFee(merchantTransactions));
         }
