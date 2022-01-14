@@ -1,11 +1,11 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-using System;
-using Serilog;
-using System.IO;
-
 namespace MobilePay
 {
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Hosting;
+    using Serilog;
+    using System;
+    using System.IO;
+
     public class Program
     {
         public static void Main(string[] args)

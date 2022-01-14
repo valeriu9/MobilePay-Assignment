@@ -51,9 +51,9 @@ C:\Users\valer\source\repos\MobilePay\MobilePay\bin\Debug\netcoreapp3.1\Serilog.
 C:\Users\valer\source\repos\MobilePay\MobilePay\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\valer\source\repos\MobilePay\MobilePay\obj\Debug\netcoreapp3.1\MobilePay.csproj.CopyComplete
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\Storage\dataHolder.json
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\Storage\discounts.json
-C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\MobilePay.exe
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\MobilePay.deps.json
 C:\Users\valer\Documents\GitHub\MobilePay-Assignment\MobilePay\bin\Debug\netcoreapp3.1\MobilePay.runtimeconfig.json

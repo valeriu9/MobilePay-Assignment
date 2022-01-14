@@ -1,7 +1,7 @@
-using System;
-
 namespace MobilePay.Models
 {
+    using System;
+
     public class Transaction
     {
         public Guid ID { get; set; }
