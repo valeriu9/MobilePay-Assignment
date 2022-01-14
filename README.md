@@ -13,220 +13,220 @@ Register list transactions for a merchant:
       1. Click on "register-transactions".
       2. Click "try it out"
       3. Remove placeholder from text-area and insert following JSON:
- {
-  "transactions":[
-        {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-           {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        },
-         {
-          "timestamp": "2021-12-24T13:31:14.056Z",
-          "amount": 595238.0952380952,
-          "merchantName": "Tesla"
-        }
-      ]
-   }
+       {
+        "transactions":[
+              {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+                 {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              },
+               {
+                "timestamp": "2021-12-24T13:31:14.056Z",
+                "amount": 595238.0952380952,
+                "merchantName": "Tesla"
+              }
+            ]
+         }
       4. Click the "Execute" button.
  
 Register one transaction for a merchant: 
