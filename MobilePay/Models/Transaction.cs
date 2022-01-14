@@ -4,7 +4,7 @@ namespace MobilePay.Models
 {
     public class Transaction
     {
-        public int ID { get; set; }
+        public Guid ID { get; set; }
 
         public DateTime Timestamp { get; set; }
 

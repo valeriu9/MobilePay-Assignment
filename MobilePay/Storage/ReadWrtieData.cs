@@ -12,7 +12,7 @@ namespace MobilePay.Storage
         public void WriteDataToFile(Transaction transaction)
         {
             var data = ReadDataFromFile();
-            transaction.ID = data.Count != 0 ? data.Max(t => t.ID)+1 : 1;
+            transaction.ID = Guid.NewGuid();
             data.Add(transaction);
 
             string path = Path.Combine(Environment.CurrentDirectory, @"Storage\dataHolder.json");

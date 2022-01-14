@@ -1,0 +1,14 @@
+[
+  {
+    "MerchantName": "Tesla",
+    "DiscountPercentage": "25"
+  },
+  {
+    "MerchantName": "Rema1000",
+    "DiscountPercentage": "15"
+  },
+  {
+    "MerchantName": "McDonald",
+    "DiscountPercentage": "5"
+  }
+]

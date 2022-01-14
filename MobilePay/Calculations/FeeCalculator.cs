@@ -10,6 +10,9 @@ namespace MobilePay.Calculations
     {
         public decimal CalculateFee(List<Transaction> transactions)
         {
+            if(transactions == null || transactions.Count == 0) {
+                return 0;
+            }
             var discountList = new ReadWrtieData().ReadDiscountsFromFile();
             decimal discountPercentage = 0;
             decimal discountOfMerchant = 0;
@@ -27,7 +30,6 @@ namespace MobilePay.Calculations
                 discountPercentage = discountList.SingleOrDefault(discount => discount.MerchantName == transactions[0].MerchantName).DiscountPercentage;
                 discountOfMerchant = initialFee * (discountPercentage / 100);
             }
-
             additionalDiscount = hasAdditionalDiscount ? (initialFee - discountOfMerchant) * (decimal)0.2 : 0;
             var totalFee = initialFee - discountOfMerchant - additionalDiscount;
             return totalFee;
@@ -54,7 +56,7 @@ namespace MobilePay.Calculations
                     monthsInList[monthsInList.FindIndex(element => element.Year == transaction.Timestamp.Year && element.Month == transaction.Timestamp.Month)].Counter += 1;
                 }
             }
-            return monthsInList.Exists(element => element.Counter >= 10);
+            return monthsInList.Exists(element => element.Counter+1 >= 10);
         }
     }
 }
